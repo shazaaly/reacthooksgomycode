@@ -9,12 +9,16 @@ import { UseRefHook } from './Components/UseRefHooks/UseRefHook';
 import { UserContext, user } from './Components/useContextHook/UserContextHook';
 import { Login } from './Components/useContextHook/Login';
 import { User } from './Components/useContextHook/User';
+import { ComputeOnce } from './Components/useMemoHook/ComputeOnce';
 
 function App() {
 
   return (
 
     <div className="App">
+
+     <ComputeOnce />
+
       <Counter />
       <br />
       {/* <h3></h3>Input Example :  */}
@@ -31,6 +35,10 @@ function App() {
         <Login />
         <User />
       </UserContext.Provider>
+
+     
+
+    
 
 
 
