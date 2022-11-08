@@ -1,16 +1,32 @@
-let testArray = [-10, 20, 5]
+var fname = 'shaza'
+var fname  = 'heba'
+console.log(fname);
 
-function test(arr) {
+myNumber = 5
+var myNumber  = 10
+console.log(myNumber);
 
-    let i = 0
-    let sum = 0
-    while (i < arr.length) {
-        sum += arr[i]
-        i++
+myNumberLet = 5
+let myNumberLet  = 10
+console.log(myNumberLet);
 
-    }
 
-    return sum
+// ===========================
+// let x = 10
+// --x
+// console.log('--x  ' + x);  /* x=9 */
+// x--
+// console.log('x--  ' + x);  /* x=8  */
 
-}
-console.log(test(testArray))
+// ==================
+// let x = 3;
+// const y = x++;
+
+// console.log(`x:${x}, y:${y}`);  /* x:4, y:3 */
+
+
+// let a = 3;
+// const b = ++a;
+
+// console.log(`a:${a}, b:${b}`); /* "a:4, b:4"  */
+

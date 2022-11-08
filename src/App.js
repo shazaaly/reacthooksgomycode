@@ -10,6 +10,8 @@ import { UserContext, user } from './Components/useContextHook/UserContextHook';
 import { Login } from './Components/useContextHook/Login';
 import { User } from './Components/useContextHook/User';
 import { ComputeOnce } from './Components/useMemoHook/ComputeOnce';
+import { ParentComponent } from './Components/useCallBackHook/ParentComponent';
+
 
 function App() {
 
@@ -17,7 +19,7 @@ function App() {
 
     <div className="App">
 
-     <ComputeOnce />
+      <ComputeOnce />
 
       <Counter />
       <br />
@@ -36,11 +38,7 @@ function App() {
         <User />
       </UserContext.Provider>
 
-     
-
-    
-
-
+      <ParentComponent />
 
     </div>
 
